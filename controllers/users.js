@@ -47,7 +47,7 @@ const usersPost =  async(req, res)=> {
 }
 
 
-const usersPut = async(req, res=response)=> {
+const usersPut =async(req, res=response)=> {
     const id = req.params.id;
     const {_id,password,google,correo,...resto} = req.body;
 
